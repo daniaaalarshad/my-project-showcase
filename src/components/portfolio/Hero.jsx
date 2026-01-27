@@ -2,7 +2,7 @@ import { ArrowDown, Github, Linkedin, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { personalInfo, socialLinks } from "@/data/portfolioData";
 
-const iconMap: Record<string, React.ElementType> = {
+const iconMap = {
   Github,
   Linkedin,
   Twitter,

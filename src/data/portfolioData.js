@@ -1,27 +1,3 @@
-export interface Project {
-  id: string;
-  title: string;
-  description: string;
-  longDescription: string;
-  image: string;
-  techStack: string[];
-  githubUrl: string;
-  liveUrl?: string;
-  featured: boolean;
-}
-
-export interface Skill {
-  name: string;
-  icon: string;
-  category: 'frontend' | 'backend' | 'tools' | 'other';
-}
-
-export interface SocialLink {
-  name: string;
-  url: string;
-  icon: string;
-}
-
 export const personalInfo = {
   name: "John Doe",
   title: "Full Stack Developer",
@@ -34,13 +10,13 @@ When I'm not coding, you'll find me exploring new technologies, contributing to 
   avatarUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
 };
 
-export const socialLinks: SocialLink[] = [
+export const socialLinks = [
   { name: "GitHub", url: "https://github.com", icon: "Github" },
   { name: "LinkedIn", url: "https://linkedin.com", icon: "Linkedin" },
   { name: "Twitter", url: "https://twitter.com", icon: "Twitter" },
 ];
 
-export const skills: Skill[] = [
+export const skills = [
   // Frontend
   { name: "React", icon: "Code2", category: "frontend" },
   { name: "TypeScript", icon: "FileCode", category: "frontend" },
@@ -61,7 +37,7 @@ export const skills: Skill[] = [
   { name: "VS Code", icon: "Code", category: "tools" },
 ];
 
-export const projects: Project[] = [
+export const projects = [
   {
     id: "1",
     title: "E-Commerce Platform",
@@ -109,9 +85,9 @@ export const projects: Project[] = [
     id: "5",
     title: "Developer Portfolio",
     description: "This very portfolio website you're viewing",
-    longDescription: "A modern, responsive portfolio website built with React and TypeScript, featuring smooth animations, dark theme, and optimized performance.",
+    longDescription: "A modern, responsive portfolio website built with React and JavaScript, featuring smooth animations, dark theme, and optimized performance.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop",
-    techStack: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    techStack: ["React", "JavaScript", "Tailwind CSS", "Framer Motion"],
     githubUrl: "https://github.com/username/portfolio",
     featured: false,
   },

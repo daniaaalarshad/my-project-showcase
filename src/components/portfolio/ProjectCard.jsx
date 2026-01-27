@@ -2,13 +2,8 @@ import { ExternalLink, Github } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Project } from "@/data/portfolioData";
 
-interface ProjectCardProps {
-  project: Project;
-}
-
-const ProjectCard = ({ project }: ProjectCardProps) => {
+const ProjectCard = ({ project }) => {
   return (
     <Card className="group overflow-hidden bg-card border-border hover:border-primary/50 transition-all duration-300 hover:glow-primary">
       {/* Project Image */}
