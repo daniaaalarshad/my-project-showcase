@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
-  
+
   const featuredProjects = projects.filter((p) => p.featured);
   const displayedProjects = showAll ? projects : featuredProjects;
 
