@@ -34,9 +34,7 @@ const Hero = () => {
           </div>
 
           {/* Intro Text */}
-          <p className="text-primary font-mono text-lg mb-4">
-            Hello, I'm
-          </p>
+          <p className="text-primary font-mono text-lg mb-4">Hello, I'm</p>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-4">
             <span className="text-gradient">{personalInfo.name}</span>
