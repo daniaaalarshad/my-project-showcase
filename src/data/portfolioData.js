@@ -1,12 +1,12 @@
 export const personalInfo = {
   name: "M Danial Arshad",
   title: "Full Stack Developer",
-  tagline: "Building digital experiences that make a difference",
+  tagline: "An enthusiastic programmer loving web development and many other technologies.",
   bio: `I'm a passionate full-stack developer with 5+ years of experience building web applications. 
 I love turning complex problems into simple, beautiful, and intuitive solutions. 
 When I'm not coding, you'll find me exploring new technologies, contributing to open source, or sharing knowledge with the developer community.`,
   email: "danialarshad231@gmail.com",
-  location: "San Francisco, CA",
+  location: "Oslo, Norway",
   avatarUrl: "danial.jpg",
 };
 
