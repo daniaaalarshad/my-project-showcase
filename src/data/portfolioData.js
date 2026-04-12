@@ -65,7 +65,7 @@ export const projects = [
     title: "Xplore Food (BUILT WITH REPLIT AI)",
     description: "Explore the food places in your city",
     longDescription: "Explore the food places in your city",
-    image: "../public/hero-food-bg.png",
+    image: "../hero-food-bg.png",
     techStack: ["Next.js", "Express.js", "Tailwind CSS", "PostgreSQL with Drizzle ORM", "Node.js"],
     githubUrl: "https://github.com/daniaaalarshad/Xplore-Food",
     // liveUrl: "https://example-store.com",
