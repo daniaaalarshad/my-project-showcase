@@ -58,6 +58,7 @@ export const projects = [
     ],
     githubUrl: "https://github.com/daniaaalarshad/Home-Cleaner-Finder",
     // liveUrl: "https://example-store.com",
+    featured: true,
   },
   {
     id: "2",
@@ -68,6 +69,7 @@ export const projects = [
     techStack: ["Next.js", "Express.js", "Tailwind CSS", "PostgreSQL with Drizzle ORM", "Node.js"],
     githubUrl: "https://github.com/daniaaalarshad/Xplore-Food",
     // liveUrl: "https://example-store.com",
+    featured: true,
   },
 ];
 
