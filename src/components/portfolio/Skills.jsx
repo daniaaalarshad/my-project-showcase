@@ -32,7 +32,7 @@ const iconMap = {
 const categoryLabels = {
   frontend: "Frontend",
   backend: "Backend",
-  tools: "Tools & DevOps",
+  tools: "Tools",
   other: "Other",
 };
 
