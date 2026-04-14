@@ -16,9 +16,8 @@ export const personalInfo = {
 };
 
 export const socialLinks = [
-  { name: "GitHub", url: "https://github.com", icon: "Github" },
-  { name: "LinkedIn", url: "https://linkedin.com", icon: "Linkedin" },
-  { name: "Twitter", url: "https://twitter.com", icon: "Twitter" },
+  { name: "GitHub", url: "https://github.com/daniaaalarshad/", icon: "Github" },
+  { name: "LinkedIn", url: "https://linkedin.com/in/muhammaddanialarshad/", icon: "Linkedin" },
 ];
 
 export const skills = [
