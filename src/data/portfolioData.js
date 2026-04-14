@@ -2,9 +2,14 @@ export const personalInfo = {
   name: "M Danial Arshad",
   title: "Full Stack Developer",
   tagline: "An enthusiastic programmer loving web development and many other technologies.",
-  bio: `I'm a passionate full-stack developer with 5 years of experience building web applications. 
-I love turning complex problems into simple, beautiful, and intuitive solutions. 
-When I'm not coding, you'll find me exploring new technologies, contributing to open source, or sharing knowledge with the developer community.`,
+  bio: `
+  
+    I am a web developer with a strong enthusiasm for learning new technologies and tools. I enjoy problem-solving and am comfortable working in both frontend and backend development. I call myself a good learner, adaptive to new technologies and methodologies as needed. 
+    
+    With five years of experience in Norway as a full-stack developer, I’ve worked extensively with PHP (using the Eloquent ORM) on the backend and Vue.js on the frontend. In this period, I also have around fifteen months of experience working with the Laravel framework, which has strengthened my understanding of modern web development.
+    
+    I call myself a good and quick enough learner, ready to expand my skills and stay current with emerging technologies. Whether working on frontend interfaces or backend logic, I would like to contribute to meaningful projects.`,
+
   email: "danialarshad231@gmail.com",
   location: "Oslo, Norway",
   avatarUrl: "danial.jpg",
