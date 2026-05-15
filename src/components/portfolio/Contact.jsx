@@ -36,7 +36,7 @@ const Contact = () => {
           from_email: formData.email,
           message: formData.message,
         },
-        "36lc0qWfx7VK5b_BS"
+        "MX3cXD-jz55ZxdYrJ"
       );
 
       toast({
